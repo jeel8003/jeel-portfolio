@@ -1,0 +1,21 @@
+body {font-family: 'Inter', sans-serif;margin:0;padding:0;background:#0f1724;color:#fff;}
+.container {max-width: 1000px;margin: auto;padding: 2rem;}
+.nav {background:#0b1220;position:sticky;top:0;z-index:100;}
+.nav-inner {display:flex;justify-content:space-between;align-items:center;}
+.nav a {color:#9aa4b2;margin-left:1rem;text-decoration:none;}
+.brand {font-weight:700;color:#fff;}
+.hero {padding:5rem 0;text-align:center;}
+.accent {color:#6ee7b7;}
+.lead {color:#9aa4b2;}
+.btn {padding:.6rem 1rem;border-radius:8px;text-decoration:none;margin:.5rem;display:inline-block;}
+.primary {background:#6ee7b7;color:#000;}
+.ghost {border:1px solid #9aa4b2;color:#fff;}
+.section {padding:4rem 0;}
+.section.alt {background:#0b1220;}
+h2 {margin-bottom:1rem;}
+.card {background:#111827;padding:1.5rem;border-radius:10px;margin:.5rem 0;}
+.grid {display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem;}
+.skills {list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.5rem;}
+.skills li {background:#111827;padding:.8rem;border-radius:6px;text-align:center;}
+.footer {text-align:center;}
+.footer a {margin:0 .5rem;color:#6ee7b7;font-size:1.5rem;}
